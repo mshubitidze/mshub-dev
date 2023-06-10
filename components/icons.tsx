@@ -4,6 +4,7 @@ import {
   SunMedium,
   Twitter,
   type Icon as LucideIcon,
+  Circle,
 } from "lucide-react"
 
 export type Icon = LucideIcon
@@ -28,4 +29,5 @@ export const Icons = {
       ></path>
     </svg>
   ),
+  smth: Circle,
 }
