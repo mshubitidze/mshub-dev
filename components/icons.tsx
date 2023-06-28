@@ -1,10 +1,10 @@
 import {
+  Circle,
   LucideProps,
   Moon,
   SunMedium,
   Twitter,
   type Icon as LucideIcon,
-  Circle,
 } from "lucide-react"
 
 export type Icon = LucideIcon

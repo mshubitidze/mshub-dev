@@ -1,23 +1,23 @@
-import { NextResponse, type NextRequest } from "next/server";
+import { NextResponse, type NextRequest } from "next/server"
 
 export default async function middleware(req: NextRequest) {
-  const host = req.nextUrl.origin.split("://")[1];
+  const host = req.nextUrl.origin.split("://")[1]
 
   if (
     host.includes("gh.piss.ge") ||
     host.includes("gh.mshub.dev") ||
     host.includes("gh.msh.ge")
   )
-    return NextResponse.redirect("https://github.com/mshubitidze");
+    return NextResponse.redirect("https://github.com/mshubitidze")
 
   if (
     host.includes("twt.piss.ge") ||
     host.includes("twt.mshub.dev") ||
     host.includes("twt.msh.ge")
   )
-    return NextResponse.redirect("https://twitter.com/_mshub");
+    return NextResponse.redirect("https://twitter.com/_mshub")
 
-  return NextResponse.next();
+  return NextResponse.next()
 }
 
 export const config = {
@@ -31,4 +31,4 @@ export const config = {
      */
     "/((?!api|_next/static|_next/image|favicon.ico).*)",
   ],
-};
+}

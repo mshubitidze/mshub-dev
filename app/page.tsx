@@ -7,7 +7,7 @@ import { Icons } from "@/components/icons"
 
 export default function Home() {
   return (
-    <main className="flex min-h-[100svh] flex-col items-center justify-center gap-1">
+    <main className="flex flex-col gap-2">
       <Link href={siteConfig.links.github} target="_blank" rel="noreferrer">
         <div
           className={cn(
@@ -17,9 +17,9 @@ export default function Home() {
             "h-full"
           )}
         >
-          <Icons.gitHub className="mr-2 h-5 w-5 sm:h-7 sm:w-7 md:h-11 md:w-11" />
-          <h1 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl">
-            github.com/mshubitidze
+          <Icons.gitHub className="mr-2 h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12" />
+          <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-4xl">
+            /mshubitidze
           </h1>
           <span className="sr-only">GitHub</span>
         </div>
@@ -33,9 +33,9 @@ export default function Home() {
             "h-full"
           )}
         >
-          <Icons.twitter className="mr-2 h-5 w-5 fill-[rgb(29,155,240)] stroke-[rgb(29,155,240)] sm:h-7 sm:w-7 md:h-11 md:w-11" />
-          <h1 className="text-lg font-extrabold leading-tight tracking-tighter sm:text-2xl md:text-3xl">
-            twitter.com/_mshub
+          <Icons.twitter className="mr-2 h-8 w-8 fill-[rgb(29,155,240)] stroke-[rgb(29,155,240)] sm:h-10 sm:w-10 md:h-12 md:w-12" />
+          <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-4xl">
+            /_mshub
           </h1>
           <span className="sr-only">Twitter</span>
         </div>
