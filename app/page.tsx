@@ -33,7 +33,8 @@ export default function Home() {
             "h-full"
           )}
         >
-          <Icons.twitter className="mr-2 h-8 w-8 fill-[rgb(29,155,240)] stroke-[rgb(29,155,240)] sm:h-10 sm:w-10 md:h-12 md:w-12" />
+          {/* fill-[rgb(29,155,240)] */}
+          <Icons.twitter className="mr-2 h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12" />
           <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-4xl">
             /_mshub
           </h1>

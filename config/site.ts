@@ -2,10 +2,10 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "mshub",
-  description: "social links",
+  description: "waht",
   mainNav: [],
   links: {
     twitter: "https://twitter.com/_mshub",
-    github: "https://github.com/mshubitidze",
+    github: "https://github.com/mshubitidze/mshub-dev",
   },
 }
