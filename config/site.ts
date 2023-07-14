@@ -7,5 +7,6 @@ export const siteConfig = {
   links: {
     twitter: "https://twitter.com/_mshub",
     github: "https://github.com/mshubitidze/mshub-dev",
+    threads: "https://threads.net/@mshubit",
   },
 }
